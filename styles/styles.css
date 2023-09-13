@@ -60,23 +60,35 @@ main {
     background-image: url("/assets/images/mountains.jpg");
     background-size: 100%;
     background-position: center;
-    background-color: gold;
+
 }
 .header-content {
-    padding: 150px 50px;
+    padding: 100px 0 150px 0;
     text-align: center;
 }
 .header-content h1 {
-    font-size: 40px;
+    font-size: 90px;
     font-weight: 700;
 }
+.input-search {
+    margin-top: 20px;
+}
 .input-text {
+    width: 300px;
     padding: 20px;
     border-radius: 40px 0px 0px 40px;
+    border-color: #1C2B32;
+    background: transparent;
+    color: #fff;
 }
 .header-content button {
-    color: #899CA0;
-    border-radius: 40px 0px 0px 40px;
+    margin-left: -7px;
+    font-weight: normal;
+    padding: 21px 30px;
+    color: #fff;
+    border-radius: 0px 40px 40px 0px;
+    background-color: #1C2B32;
+    border-color: #1C2B32;
 }
 
 /*///////////// 3.2 Testimonial /////////////*/
@@ -84,11 +96,22 @@ main {
 
 }
 .article-content h2 {
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
 }
 
-
+.article-quote {
+    padding: 20px;
+    margin-top: 20px;
+    webkit-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.51);
+    moz-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.51);
+    box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.51);
+    border-radius: 10px;
+}
+.icone-image {
+    im;
+}
 /*///////////// 3.3 Support /////////////*/
 
 
